@@ -1,0 +1,9 @@
+There are three built-in build lifecycles:
+1. build/default: The default lifecycle handles your project deployment. (23 phases)
+2. clean: The clean lifecycle handles project cleaning (3 phases)
+3. site: The site lifecycle handles the creation of your project's site documentation. (4 phases)
+
+A life cycle is associated with sequence of phases and each phase will have Plugin and Plugin will be associated with one or more goals.
+
+Maven Build life Cycle.
+
