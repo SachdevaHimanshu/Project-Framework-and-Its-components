@@ -17,9 +17,9 @@ query with parameters in your code.
 DEBUG – less granular compared to the TRACE level, but it is more than you will need in everyday use. The DEBUG log level should be used for information that may be 
 needed for diagnosing issues and troubleshooting or when running application in the test environment for the purpose of making sure everything is running correctly
 
-INFO – the standard log level indicating that something happened, the application entered a certain state, etc. For example, a controller of your authorization API may
-include an INFO log level with information on which user requested authorization if the authorization was successful or not. The information logged using the INFO log 
-level should be purely informative and not looking into them on a regular basis shouldn’t result in missing any important information.
+INFO – the standard log level indicating that something happened, the application entered a certain state, etc. For example, a controller of your authorization 
+API may include an INFO log level with information on which user requested authorization if the authorization was successful or not. The information logged using 
+the INFO log level should be purely informative and not looking into them on a regular basis shouldn’t result in missing any important information.
 
 WARN – the log level that indicates that something unexpected happened in the application, a problem, or a situation that might disturb one of the processes. But that
 doesn’t mean that the application failed. The WARN level should be used in situations that are unexpected, but the code can continue the work. For example, a parsing 
