@@ -1,5 +1,6 @@
 Jenkins: Continous Integration and Continuous Delivery.
-When our automated tests are ready we club all required tests and run those tests either by running Testng.xml or running POM.xml(maven command) file manually by using run as in eclipse.
+When our automated tests are ready we club all required tests and run those tests either by running Testng.xml or running POM.xml(maven command) file manually 
+by using run as in eclipse.
 This is also a manual task which needs to be automated. If a set of test cases are supposed to be run daily at mid night to as to receive the report
 in morning we should not be running test manually in eclipse at mid night.
 The solution is to create/Schedule a JOB in Jenkins. 
@@ -35,7 +36,8 @@ control system that is used for maintaining the repository of source code.
 2.  The repository is continuously checked by Jenkins CI server for any changes (either in the form of code or libraries) and changes are pulled by the server.
 
 3. In the next step, we ensure that the build with the ‘pulled changes’ is going through or not. The Build server performs a build with the code and an executable
-is generated if the build process is successful. In case of a build failure, an automated email with a link to build logs and other build artifacts is sent to the developer.
+is generated if the build process is successful. In case of a build failure, an automated email with a link to build logs and other build artifacts is sent to the 
+developer.
 
 4. In case of a successful build, the built application (or executable) is deployed to the test server. This step helps in realizing continuous testing where the 
 newly built executable goes through a series of automated tests. Developers are alerted in case the changes have caused any breakage in functionality.
